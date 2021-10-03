@@ -31,6 +31,6 @@ jobs:
             ls
             pytest -v --cov
       - run:
-        name: store tests
-        command:  |
-          store_test_results
+          name: store tests
+          command:  |
+            store_test_results
